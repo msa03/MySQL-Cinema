@@ -5,7 +5,7 @@ USE cinema;
 CREATE TABLE films (
 	film_id INT AUTO_INCREMENT,
 	film_name VARCHAR(50) NOT NULL,
-	film_duration TIME NOT NULL,
+	film_duration INT NOT NULL,
 	screening_time DATETIME NOT NULL,
 	PRIMARY KEY (film_id)
 );
