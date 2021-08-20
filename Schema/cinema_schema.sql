@@ -13,7 +13,7 @@ CREATE TABLE films (
 CREATE TABLE customers (
 	customer_id INT AUTO_INCREMENT,
 	customer_name VARCHAR(40) NOT NULL,
-	customer_age TINYINT NOT NULL
+	customer_age TINYINT NOT NULL,
 	customer_email VARCHAR(50) UNIQUE,
 	PRIMARY KEY (customer_id)
 );
