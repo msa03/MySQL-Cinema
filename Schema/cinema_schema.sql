@@ -7,7 +7,7 @@ CREATE TABLE films (
 	film_name VARCHAR(50) NOT NULL,
 	film_length INT NOT NULL,
 	film_genre VARCHAR(20) NOT NULL,
-	3D BOOLEAN,
+	3D BOOLEAN DEFAULT(FALSE),
 	PRIMARY KEY (film_id)
 );
 
